@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+@font-face {
+    font-family: 'pop_artregular';
+    src: url('popart-regular-webfont.woff2') format('woff2'),
+        url('popart-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* colores perosnalizados */
+:root {
+    --color-primario: #14afec;
+    --color-secundario: #dd0dc1;
+    --color-terciario: #4ED1A9;
+    --color-cuatri: #FFE644;
+    --color-quinto: #F88546;
+}
+
+
+.luvre {
+    font-family: 'pop_artregular';
+    font-weight: 500;
+}
+
+
+.nav-link:hover{
+    color: #dd0dc1;
+    text-decoration: none;
+}
+
+.img-louvre{
+    padding-bottom: 1%;
+}
+
+.alocado {
+    font-family: 'pop_artregular';
+
+}
+
+
+.ruptura {
+    font-family: 'pop_artregular';
+}
+
+
+.unico {
+    font-family: 'pop_artregular';
+}
+
+.historia {
+    font-family: 'pop_artregular';
+}
+
+.Modal-historia{
+    font-family: 'pop_artregular';
+}
+
+
+
+
+.Cuerpomodalhistoria1{
+    background-color: #F88546;
+}
+
+.Cuerpomodalhistoria2{
+    background-color: #dd0dc1;
+}
+.Cuerpomodalhistoria3{
+    background-color: #F88546;
+}
+
+
+.corazon {
+    font-family: 'pop_artregular';
+}
+
+.Galeria-balsademedusa{
+    background-color: #F88546;
+}
+
+.Galeria-bodasdecana{
+    background-color: #dd0dc1;
+}
+
+.Galeria-gioconda{
+    background-color: #4ED1A9;;
+}
+
+.modal-title{
+    font-family: 'pop_artregular';
+}
+
+
+.proximo {
+    font-family: 'pop_artregular';
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.carousel-caption {
+    padding-bottom: 150px;
+}
+
+.fuente {
+    color: white;
+}
+
+
+.Historia1 {
+    background-image: url(img/fondo_verde.jpg);
+}
+
+.Galerias {
+    background-image: url(img/Fondo_rosa.jpg);
+    background-size: cover;
+}
+
+
+.Eventos1 {
+    background-image: url(img/fondo_amarillo.jpg);
+    background-size: cover;
+}
+
+.BotonProximoseventos1{
+    background-color: var(--color-quinto);
+}
+
+.BotonProximoseventos2{
+    background-color: var(--color-quinto);
+}
+
+
+.contactar {
+    font-family: 'pop_artregular';
+}
+
+footer {
+    background-color: #4ED1A9;
+    background-image: url(img/lineasfooter.png);
+    background-position: center;
+}
+
+
+
+/* Segundo html */
+/* Formulario html */
+
+.bodycontactos {
+    background-image: url(img/fondo_amarillo.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.Hojacontactos {
+    background-color: #4ED1A9;
+    background-image: url(img/lineasfooter.png);
+    background-position: center;
+    margin-top: auto;
+}
+
+
+.formulario{
+    background-color: #4ED1A9;
+    opacity: 90%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+
+.Enviarconsulta{
+    background-color: var(--color-quinto);
+}
+
+.Borrarconsulta{
+    background-color: var(--color-secundario);
+}
+/* Tercer html */
+/* Galeria html */
+
+.Galeria-imagenes{
+    padding-top: 13%;
+}
+
+.AlbumGaleria{
+    padding-bottom: 3%;
+    background-image: url(img/Fondo_rosa.jpg);
+    background-size: cover;
+}
+
+/* cuaro html */
+/* mapa html */
+
+.ubicacion{
+    font-family: 'pop_artregular';
+}
+
+.mapa{
+    text-align: center;
+    padding-top: 3%;
+}
+
+.mapa1{
+    padding-top: 4%;
+    padding-bottom: 6%;
+}
+
+.bodymapa{
+    background-image: url(img/fondo_verde.jpg);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.Hojamapa {
+    background-color: var(--color-quinto);
+    background-image: url(img/lineasfooter.png);
+    background-position: center;
+    margin-top: auto;
+}
